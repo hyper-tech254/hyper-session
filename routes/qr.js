@@ -9,7 +9,7 @@ const path = require('path');
 const fs = require('fs');
 let router = express.Router();
 const pino = require("pino");
-const { sendButtons } = require('hyper-btns');
+const { sendButtons } = require('gifted-btns');
 const {
     default: giftedConnect,
     useMultiFileAuthState,

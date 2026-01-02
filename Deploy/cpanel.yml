@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/giftech-bots/home/giftedmd-session/public_html/
+    - export DEPLOYPATH=/hypertech-bots/home/hyperxmd-session/public_html/
     - /bin/cp -R images $DEPLOYPATH
     
 
